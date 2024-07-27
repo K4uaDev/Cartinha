@@ -76,7 +76,7 @@ body {
     0% { width: 30vw; }
     100% { width: 37vw; }
   }
-  .conteiner__carta:hover .carta {
+  .conteiner__carta:active .carta {
     transform: translateY(-90px);
     transition: transform 0.6s ease;
   }
@@ -88,7 +88,7 @@ body {
       width: 71%; 
       height: 23vw;
     }
-    .conteiner__carta:hover .carta {
+    .conteiner__carta:active .carta {
       transform: translateY(-50px);
       transition: transform 0.6s ease;
     
@@ -98,7 +98,7 @@ body {
      .conteiner__pai {
        margin-top: 2%;
      }
-     .conteiner__carta:hover .carta {
+     .conteiner__carta:active .carta {
         transform: translateY(-140px);
         transition: transform 0.6s ease;
       }
